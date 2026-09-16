@@ -19,4 +19,7 @@
   { "id": 18, "name": "وبکم لاجیتک C920", "category": "کامپیوتر", "price": 2900000, "description": "Full HD، میکروفون دوگانه", "image": "https://picsum.photos/seed/p18/400/300" },
   { "id": 19, "name": "فلش مموری سن‌دیسک 128GB", "category": "ذخیره‌سازی", "price": 850000, "description": "USB 3.1، سرعت بالا", "image": "https://picsum.photos/seed/p19/400/300" },
   { "id": 20, "name": "پایه نگهدارنده لپ‌تاپ", "category": "لوازم جانبی", "price": 950000, "description": "آلومینیومی، قابل تنظیم", "image": "https://picsum.photos/seed/p20/400/300" }
+  {
+    "id": 21,"name": "ایفون se","category": "موبایل","price": 50,"image": "https://dkstatics-public.digikala.com/digikala-products/1df0058052d564e13222560119adcbb9a4119fc2_1643443109.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90","description": ""}
 ]
+
