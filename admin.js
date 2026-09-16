@@ -1,4 +1,5 @@
-const PASSWORD = 'arian1404'; // رمز را اینجا عوض کنید
+const PASSWORD = 'arian1404';
+
 let products = [];
 
 async function loadProducts() {
