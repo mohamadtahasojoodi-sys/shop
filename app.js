@@ -1,4 +1,4 @@
-const WHATSAPP = '989123456789'; // شماره واتساپ با کد کشور
+const WHATSAPP = '989123456789';
 
 let products = [];
 let currentCat = 'all';
