@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "گوشی سامسونگ A54", "category": "موبایل", "price": 12500000, "description": "حافظه ۲۵۶ گیگ، دوربین ۵۰ مگاپیکسل", "image": "https://picsum.photos/seed/p1/400/300" },
+  { "id": 2, "name": "هدفون سونی WH-1000", "category": "صوتی", "price": 8200000, "description": "نویز کنسلینگ فعال، ۳۰ ساعت باتری", "image": "https://picsum.photos/seed/p2/400/300" },
+  { "id": 3, "name": "لپ‌تاپ ایسوس VivoBook", "category": "لپ‌تاپ", "price": 28000000, "description": "Core i5، رم ۱۶ گیگ، SSD 512", "image": "https://picsum.photos/seed/p3/400/300" },
+  { "id": 4, "name": "ساعت هوشمند اپل Watch 9", "category": "پوشیدنی", "price": 18500000, "description": "GPS، ضدآب، نمایشگر همیشه روشن", "image": "https://picsum.photos/seed/p4/400/300" },
+  { "id": 5, "name": "پاوربانک انکر 20000", "category": "لوازم جانبی", "price": 1850000, "description": "شارژ سریع ۲۰ وات، دو پورت USB", "image": "https://picsum.photos/seed/p5/400/300" },
+  { "id": 6, "name": "کیبورد مکانیکال ردراگون", "category": "کامپیوتر", "price": 3200000, "description": "سوییچ آبی، بک‌لایت RGB", "image": "https://picsum.photos/seed/p6/400/300" },
+  { "id": 7, "name": "ماوس لاجیتک MX Master 3", "category": "کامپیوتر", "price": 4500000, "description": "بدون سیم، ۴۰۰۰ DPI", "image": "https://picsum.photos/seed/p7/400/300" },
+  { "id": 8, "name": "اسپیکر JBL Charge 5", "category": "صوتی", "price": 5600000, "description": "ضدآب IPX7، ۲۰ ساعت پخش", "image": "https://picsum.photos/seed/p8/400/300" },
+  { "id": 9, "name": "تبلت شیائومی Pad 6", "category": "تبلت", "price": 15200000, "description": "نمایشگر ۱۱ اینچ ۱۴۴ هرتز", "image": "https://picsum.photos/seed/p9/400/300" },
+  { "id": 10, "name": "هندزفری ایرپاد پرو ۲", "category": "صوتی", "price": 9800000, "description": "حذف نویز فعال، کیس شارژ MagSafe", "image": "https://picsum.photos/seed/p10/400/300" },
+  { "id": 11, "name": "مانیتور ال‌جی 27 اینچ", "category": "کامپیوتر", "price": 11500000, "description": "IPS، ۱۴۴ هرتز، QHD", "image": "https://picsum.photos/seed/p11/400/300" },
+  { "id": 12, "name": "دوربین کنون EOS R50", "category": "دوربین", "price": 32000000, "description": "۲۴ مگاپیکسل، فیلم 4K", "image": "https://picsum.photos/seed/p12/400/300" },
+  { "id": 13, "name": "شارژر بی‌سیم سامسونگ", "category": "لوازم جانبی", "price": 1200000, "description": "۱۵ وات، سازگار با همه گوشی‌ها", "image": "https://picsum.photos/seed/p13/400/300" },
+  { "id": 14, "name": "کنسول پلی‌استیشن ۵", "category": "گیمینگ", "price": 42000000, "description": "نسخه استاندارد با یک دسته", "image": "https://picsum.photos/seed/p14/400/300" },
+  { "id": 15, "name": "دسته DualSense", "category": "گیمینگ", "price": 4800000, "description": "بازخورد لمسی، تریگر تطبیقی", "image": "https://picsum.photos/seed/p15/400/300" },
+  { "id": 16, "name": "روتر TP-Link Archer AX23", "category": "شبکه", "price": 2400000, "description": "Wi-Fi 6، دو باند", "image": "https://picsum.photos/seed/p16/400/300" },
+  { "id": 17, "name": "هارد اکسترنال WD 2TB", "category": "ذخیره‌سازی", "price": 3800000, "description": "USB 3.0، طراحی جمع‌وجور", "image": "https://picsum.photos/seed/p17/400/300" },
+  { "id": 18, "name": "وبکم لاجیتک C920", "category": "کامپیوتر", "price": 2900000, "description": "Full HD، میکروفون دوگانه", "image": "https://picsum.photos/seed/p18/400/300" },
+  { "id": 19, "name": "فلش مموری سن‌دیسک 128GB", "category": "ذخیره‌سازی", "price": 850000, "description": "USB 3.1، سرعت بالا", "image": "https://picsum.photos/seed/p19/400/300" },
+  { "id": 20, "name": "پایه نگهدارنده لپ‌تاپ", "category": "لوازم جانبی", "price": 950000, "description": "آلومینیومی، قابل تنظیم", "image": "https://picsum.photos/seed/p20/400/300" }
+]

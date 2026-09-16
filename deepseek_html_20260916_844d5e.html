@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پنل مدیریت - فروشگاه آرین</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="admin-container">
+
+  <div id="loginBox" class="admin-card">
+    <h2>ورود به پنل مدیریت</h2>
+    <div class="form-row">
+      <label>رمز عبور</label>
+      <input type="password" id="password" placeholder="رمز را وارد کنید">
+    </div>
+    <button class="btn btn-primary" onclick="login()">ورود</button>
+    <p id="loginError" style="color:#ef4444; margin-top:10px; font-size:14px;"></p>
+  </div>
+
+  <div id="panel" style="display:none;">
+
+    <div class="admin-card">
+      <h2>➕ افزودن محصول جدید</h2>
+      <input type="hidden" id="editId">
+      <div class="form-row">
+        <label>نام محصول</label>
+        <input id="f-name" placeholder="مثلاً گوشی سامسونگ">
+      </div>
+      <div class="form-row">
+        <label>دسته‌بندی</label>
+        <input id="f-category" placeholder="مثلاً موبایل">
+      </div>
+      <div class="form-row">
+        <label>قیمت (تومان)</label>
+        <input id="f-price" type="number" placeholder="12500000">
+      </div>
+      <div class="form-row">
+        <label>لینک عکس</label>
+        <input id="f-image" placeholder="https://...">
+      </div>
+      <div class="form-row">
+        <label>توضیحات</label>
+        <textarea id="f-desc" placeholder="مشخصات کوتاه محصول"></textarea>
+      </div>
+      <button class="btn btn-primary" onclick="saveProduct()">ذخیره محصول</button>
+      <button class="btn btn-secondary" onclick="resetForm()">پاک کردن فرم</button>
+    </div>
+
+    <div class="admin-card">
+      <h2>📦 لیست محصولات</h2>
+      <div id="productList"></div>
+      <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="btn btn-primary" onclick="downloadJSON()">⬇️ دانلود products.json</button>
+        <button class="btn btn-secondary" onclick="exportToConsole()">🖨️ نمایش در کنسول</button>
+      </div>
+      <p style="margin-top:12px; font-size:13px; color:#64748b;">
+        بعد از دانلود، فایل را در GitHub جایگزین کنید تا سایت آپدیت شود.
+      </p>
+    </div>
+
+    <button class="btn btn-danger" onclick="logout()">خروج</button>
+  </div>
+
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
